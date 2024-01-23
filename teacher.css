@@ -1,0 +1,74 @@
+*{margin: 0;
+padding: 0;
+
+box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+list-style: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+#about {
+    padding: 120px
+}
+#about h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: aqua;
+    margin-bottom: 80px;
+}
+#about h3 {
+    text-align: left;
+    font-size: 25px;
+    color: rgb(255, 94, 0);
+    margin-bottom: 20px;
+}
+
+#about div.container {
+    text-align: justify;
+display: flex;
+justify-content: space-between;
+}
+
+#about div.container div.left-container {
+    width: 38%;
+   
+}
+
+#about div.container div.right-container {
+    width: 58%;
+    color: rgb(85, 42, 165);
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-top: 50;
+}
+#about div.container div.right-container div.list-container {
+    display: flex;
+    font-size: 15px;
+    color: rgb(42, 165, 58);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#about div.container div.right-container div.list-container ul {
+    width: 48%;
+   
+}
+#about div.container div.right-container div.list-container ul li {
+    margin-bottom: 20px;
+}
+#about div.container div.left-container div.image-container {
+    
+    border-radius: 50px;
+    border: 5px solid violet;
+    overflow: hidden;
+}
+#about div.container div.right-container button {
+    color:rgb(255, 94, 0);
+    padding: 20px 40px;
+    font-size: 20px;
+background-color: rebeccapurple;
+border: 5px solid greenyellow;
+}
